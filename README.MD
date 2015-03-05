@@ -1,0 +1,1 @@
+Phoca Template Component is Joomla! CMS extension. Component which allows customizing templat options in Joomla!
