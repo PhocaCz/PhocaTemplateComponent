@@ -1,0 +1,107 @@
+#pg-update {
+	margin-top:25px;
+	margin-bottom: 15px;
+}
+#pg-install a,
+#pg-upgrade a,
+#pg-update a {
+	display: 			inline-block; 
+	padding:			15px 30px 15px 50px;
+	font-size: 			23px;   
+	text-decoration: 	none;
+	box-shadow: 		0 1px 2px rgba(0,0,0,0.6);
+	-moz-box-shadow: 	0 1px 2px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.6);
+	border-radius: 			5px;
+	-moz-border-radius: 	5px; 
+	-webkit-border-radius: 	5px;
+	border-bottom: 		1px solid rgba(0,0,0,0.25);
+	position: 			relative;
+	cursor: 			pointer;
+	text-shadow: 		0 -1px 1px rgba(0,0,0,0.25);
+	font-weight: 		bold;
+	color: 				#fff;
+	background-color: 	#6699cc;
+}
+#pg-install a:hover,
+#pg-upgrade a:hover,
+#pg-update a:hover {
+	background-color: 	#4080BF;
+}
+#pg-install a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #6699cc;
+}
+#pg-install a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-install.png') 10px center no-repeat #4080BF;
+}
+#pg-update a {
+	display: block;
+	width: 10em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #6699cc;
+}
+#pg-update a:hover {
+	display: block;
+	width: 10em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #4080BF;
+}
+#pg-upgrade a {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #6699cc;
+}
+#pg-upgrade a:hover {
+	width: 6em;
+	background: 		url('images/btn.png') repeat-x, url('images/bg-upgrade.png') 10px center no-repeat #4080BF;
+}
+
+
+
+div.icon-48-info {
+	background: url('images/icon-48-pt-info.png') no-repeat left;
+}
+div.icon-48-phoca {
+	background: url('images/icon-48-pt-phoca.png') no-repeat left;
+}
+
+div.icon-48-column {
+	background: url('images/icon-48-pt-column.png') no-repeat left;
+}
+
+div.icon-48-menu {
+	background: url('images/icon-48-pt-menu.png') no-repeat left;
+}
+
+
+
+.license {
+	text-align:justify;
+	font-size: 9px;
+}
+
+.phoca-adminform {
+	background-color: #fff;
+	border: solid 1px #d5d5d5;
+	padding:10px;
+	color: #777;
+}
+.cpanel-right {
+	color: #777;
+}
+
+.ptwarning {
+	/*background:#FFEBCC;
+	border:1px solid #ff9900;
+	color: #ff9900;
+	padding:10px;*/
+	margin-top:5px;
+	margin-bottom:5px;
+	
+	color: #D35061;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #F1CAD0;
+	padding: 10px;
+	border: 3px solid #D35061
+}

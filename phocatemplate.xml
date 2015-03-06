@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="component" version="1.6.0">
+	<name>com_phocatemplate</name>
+	<author>Jan Pavelka (www.phoca.cz)</author>
+	<creationDate>07/12/2011</creationDate>
+	<authorEmail></authorEmail>
+	<authorUrl>www.phoca.cz</authorUrl>
+	<copyright>Jan Pavelka</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.1</version>
+	<description>Phoca Template</description>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+	<installfile>install.phocatemplate.php</installfile>
+
+	<uninstallfile>uninstall.phocatemplate.php</uninstallfile>
+
+	<files folder="site">
+		<filename>index.html</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB" client="site">language/en-GB/en-GB.com_phocatemplate.ini</language>
+		<language tag="en-GB" client="site">language/en-GB/en-GB.com_phocatemplate.sys.ini</language>
+	</languages>
+
+	<administration>
+		<menu img="components/com_phocatemplate/assets/images/icon-16-pt-menu.png" link="option=com_phocatemplate">com_phocatemplate</menu>
+		<submenu>
+			<menu img="components/com_phocatemplate/assets/images/icon-16-pt-menu-cp.png" alt="COM_PHOCATEMPLATE_CONTROLPANEL" view="phocatemplatecp" link="option=com_phocatemplate">COM_PHOCATEMPLATE_CONTROLPANEL</menu>
+			<menu img="components/com_phocatemplate/assets/images/icon-16-pt-menu-menu.png" alt="COM_PHOCATEMPLATE_MENU_ITEMS" view="phocatemplatemenus" link="option=com_phocatemplate&amp;amp;view=phocatemplatemenus">COM_PHOCATEMPLATE_MENU_ITEMS</menu>
+			<menu img="components/com_phocatemplate/assets/images/icon-16-pt-menu-column.png" alt="COM_PHOCATEMPLATE_COLUMNS" view="phocatemplatecolumns" link="option=com_phocatemplate&amp;amp;view=phocatemplatecolumns">COM_PHOCATEMPLATE_COLUMNS</menu>
+			<menu img="components/com_phocatemplate/assets/images/icon-16-pt-menu-info.png" alt="COM_PHOCATEMPLATE_INFO" view="phocatemplateinfo" link="option=com_phocatemplate&amp;amp;view=phocatemplateinfo">COM_PHOCATEMPLATE_INFO</menu>
+		</submenu>
+
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.bak.sql</filename>
+			<filename>install.phocatemplate.php</filename>
+			<filename>install.sql</filename>
+			<filename>phocatemplate.php</filename>
+			<filename>phocatemplate.xml</filename>
+			<filename>uninstall.phocatemplate.php</filename>
+			<filename>uninstall.sql</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>help</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+
+		<languages>
+			<language tag="en-GB">language/en-GB/en-GB.com_phocatemplate.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_phocatemplate.sys.ini</language>
+		</languages>
+
+	</administration>
+</extension>
